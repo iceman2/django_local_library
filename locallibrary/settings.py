@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '_h6mrj6tt*4^)699&po*eqm9hx=q#q
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['frozen-reef-58489.herokuapp.com',]
+ALLOWED_HOSTS = ['locbib.herokuapp.com',]
 
 
 # Application definition
